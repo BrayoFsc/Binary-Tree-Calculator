@@ -67,7 +67,6 @@ void delete_tree(node *no)
       delete_tree(no->left);
       delete_tree(no->right);
       free(no);
-      no == NULL;
    }
 }
 
